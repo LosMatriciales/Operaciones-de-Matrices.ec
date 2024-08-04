@@ -1,0 +1,101 @@
+/* Fondo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0634edac, #f44336); /* Gradiente llamativo de cian a rojo */
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilo para el título principal */
+h1 {
+    margin-top: 50px;
+    font-size: 3.5em;
+    color: #ffffff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Estilo para los párrafos */
+p {
+    color: #ffffff; /* Color blanco para el texto de los párrafos */
+    font-size: 1.2em;
+}
+
+/* Contenedor principal */
+.main-container {
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente para contraste */
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Sección de matrices */
+#matrices {
+    padding: 30px;
+}
+
+#matrices img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#subtitulo {
+    color: #ffeb3b; /* Color Amarillo Brillante */
+    font-size: 1.5em;
+}
+
+/* Sección de operaciones */
+#operaciones {
+    padding: 30px;
+}
+
+.operaciones {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.operacion {
+    flex: 1 1 calc(25% - 20px); /* Ajusta el ancho a un cuarto del contenedor menos el espacio entre elementos */
+    padding: 20px;
+    border: 3px solid #ffeb3b; /* Color Amarillo Brillante */
+    border-radius: 20px;
+    background: #0b0b0b; /* Fondo blanco */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #333333; /* Color de texto oscuro para buen contraste */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.operacion:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+}
+
+h2, h3 {
+    color: #00bcd4; /* Color Cian Brillante */
+}
+
+/* Contenedor de botones */
+.button-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.button-container a, .operacion button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff5722; /* Color Naranja Brillante */
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
